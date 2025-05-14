@@ -1,1 +1,1 @@
-#this is test piscine frome home for training pool 2025
+#this is a test piscine from home for the training pool 2025
