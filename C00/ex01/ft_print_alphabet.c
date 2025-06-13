@@ -1,19 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: zidrox <abdelilahsadik1337@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/12 17:33:22 by zidrox            #+#    #+#             */
-/*   Updated: 2025/06/13 10:09:59 by zidrox           ###   ########.fr       */
+/*   Created: 2025/06/13 09:47:49 by zidrox            #+#    #+#             */
+/*   Updated: 2025/06/13 10:40:17 by zidrox           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_print_alphabet(void)
 {
-	write(1, &c, 1);
-}
+	char	c;
 
+	c = 'a';
+	while (c <= 'z')
+	{
+		write(1, &c, 1);
+		c++;
+	}
